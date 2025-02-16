@@ -1,0 +1,137 @@
+body {
+    margin:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #DBE9EE;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
+}
+li a {
+   display: block; 
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li a.active {
+    background-color: #4A6FA5;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+li a.active2 {
+    background-color: #778DA9;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+li a:hover:not(.active) {
+    background-color: #778DA9;
+    color:white;
+}
+.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height:1200px;
+    background-color: #415A77;
+}
+h1 {
+        text-align: center;
+        font-size: 50px;
+        color: #E0E1DD;
+        border-radius: 5px;
+        background-color: #778DA9;
+}
+.main {
+   
+    width: 25%;
+    float: right;
+}
+nav { 
+display: flex; 
+justify-content: center; 
+background-color:#333; 
+padding: 15px 0; 
+
+} 
+nav a { 
+color: white; 
+text-decoration: none; 
+margin: 0 8px; 
+font-size: 18px; 
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+.gallery {
+    border: 1px solid #ffffff;
+    width: 175px;
+    height: 310px;
+    float: left;
+    margin:5px;
+    background-color: rgb(255, 28, 58);
+}
+
+img {
+    width: 100%;
+    height: 85%;
+}
+
+.desc {
+    padding:5px;
+    text-align: center;
+    font-family:fantasy;
+    font-size: 15px;
+}
+.album {
+    background: #DBE9EE;
+    padding:15px;
+    border-radius: 10px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width:20.9%;
+    margin: 5px;
+    height: 250px;
+}
+.album img {
+    width:150px;
+    height:150px;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+.albumgrid {
+    width: 100%;
+    display: flex;
+}
+h2 {
+    font-size: 25px;
+    color: #DBE9EE;
+    background-color:#4A6FA5;
+    height:30px;
+    text-align: center;
+    width: 25%;
+    border-radius: 5px;
+}
+.text {
+    font-size: 20px;
+    background-color:white;
+    border-radius: 3px;
+}
+li a.random {
+    background-color: #778DA9;
+    color: white;
+    font:bold;
+    
+
+}
+audio{
+    transform: scale(0.65);
+    transform-origin: left;
+}
